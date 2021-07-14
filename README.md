@@ -8,7 +8,11 @@ Or you can wait my upcoming save editor also i'm working on RNG viewer.
 # HOW TO USE
 
 1-) First open the game and start new game.
+
 2-) Open the result changer program and press "Start Result Hack" button.
+
 3-) After that game will load "Game Result" window
+
 4-) You can edit you're things.
+
 5-) If you want to save you're changes made press "Save Changes" button. If you don't you can click "Exit Without Save" button.
