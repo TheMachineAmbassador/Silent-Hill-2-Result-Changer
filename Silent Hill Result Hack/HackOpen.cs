@@ -78,7 +78,7 @@ namespace Silent_Hill_Result_Hack
 
         private void btn_Save_Click(object sender, EventArgs e)
         {
-            BusinessThing.SaveChanges = 5;
+            BusinessThing.SaveChanges = 3;
             Application.Exit();
         }
 
