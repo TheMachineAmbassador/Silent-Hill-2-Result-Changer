@@ -72,7 +72,6 @@ namespace Silent_Hill_Result_Hack
             this.lbl_BoatStageTime = new System.Windows.Forms.Label();
             this.tbx_BoatStageTime = new System.Windows.Forms.TextBox();
             this.btn_BoatStageTime = new System.Windows.Forms.Button();
-            this.lbl_BoatMaxSpeedShow = new System.Windows.Forms.Label();
             this.lbl_BoatMaxSpeed = new System.Windows.Forms.Label();
             this.tbx_BoatMaxSpeed = new System.Windows.Forms.TextBox();
             this.btn_BoatMaxSpeed = new System.Windows.Forms.Button();
@@ -477,16 +476,6 @@ namespace Silent_Hill_Result_Hack
             this.btn_BoatStageTime.UseVisualStyleBackColor = true;
             this.btn_BoatStageTime.Click += new System.EventHandler(this.btn_BoatStageTime_Click);
             // 
-            // lbl_BoatMaxSpeedShow
-            // 
-            this.lbl_BoatMaxSpeedShow.AutoSize = true;
-            this.lbl_BoatMaxSpeedShow.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lbl_BoatMaxSpeedShow.Location = new System.Drawing.Point(373, 400);
-            this.lbl_BoatMaxSpeedShow.Name = "lbl_BoatMaxSpeedShow";
-            this.lbl_BoatMaxSpeedShow.Size = new System.Drawing.Size(98, 15);
-            this.lbl_BoatMaxSpeedShow.TabIndex = 56;
-            this.lbl_BoatMaxSpeedShow.Text = "Boat Max Speed";
-            // 
             // lbl_BoatMaxSpeed
             // 
             this.lbl_BoatMaxSpeed.AutoSize = true;
@@ -506,7 +495,7 @@ namespace Silent_Hill_Result_Hack
             // 
             // btn_BoatMaxSpeed
             // 
-            this.btn_BoatMaxSpeed.Location = new System.Drawing.Point(483, 397);
+            this.btn_BoatMaxSpeed.Location = new System.Drawing.Point(373, 395);
             this.btn_BoatMaxSpeed.Name = "btn_BoatMaxSpeed";
             this.btn_BoatMaxSpeed.Size = new System.Drawing.Size(98, 23);
             this.btn_BoatMaxSpeed.TabIndex = 53;
@@ -551,7 +540,6 @@ namespace Silent_Hill_Result_Hack
             this.Controls.Add(this.lbl_TotalDamage);
             this.Controls.Add(this.tbx_TotalDamage);
             this.Controls.Add(this.btn_TotalDamage);
-            this.Controls.Add(this.lbl_BoatMaxSpeedShow);
             this.Controls.Add(this.lbl_BoatMaxSpeed);
             this.Controls.Add(this.tbx_BoatMaxSpeed);
             this.Controls.Add(this.btn_BoatMaxSpeed);
@@ -656,7 +644,6 @@ namespace Silent_Hill_Result_Hack
         private System.Windows.Forms.Label lbl_BoatStageTime;
         private System.Windows.Forms.TextBox tbx_BoatStageTime;
         private System.Windows.Forms.Button btn_BoatStageTime;
-        private System.Windows.Forms.Label lbl_BoatMaxSpeedShow;
         private System.Windows.Forms.Label lbl_BoatMaxSpeed;
         private System.Windows.Forms.TextBox tbx_BoatMaxSpeed;
         private System.Windows.Forms.Button btn_BoatMaxSpeed;
