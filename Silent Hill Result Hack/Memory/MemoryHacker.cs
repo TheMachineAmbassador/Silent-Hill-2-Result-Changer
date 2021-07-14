@@ -6,6 +6,8 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
+// I got this code from this link: https://github.com/krxdev-kaan/AqHax-CSGO/blob/master/WindowsClient/AqHaxCSGO/Memory/Memory.cs
+
 namespace Silent_Hill_Result_Hack.Memory
 {
    public static class MemoryHacker
