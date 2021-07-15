@@ -73,59 +73,6 @@ namespace Silent_Hill_Result_Hack.MemoryHackyThings
             }
             return endingClearPoint;
         }
-        /*
-        public static void SetEndingClear(byte number)
-        {
-            switch(number)
-            {
-                case 0:
-                    BusinessThing.EndingClear = 0;
-                    if (BusinessThing.EndingClearPlus == 1)
-                        BusinessThing.EndingClear = 16;
-                    else if (BusinessThing.EndingClearPlus == 2)
-                        BusinessThing.EndingClear = 48;
-                    else if (BusinessThing.EndingClearPlus == 3)
-                        BusinessThing.EndingClear = 240;
-                    break;
-                case 1:
-                    BusinessThing.EndingClear = 1;
-                    if (BusinessThing.EndingClearPlus == 1)
-                        BusinessThing.EndingClear = 17;
-                    else if (BusinessThing.EndingClearPlus == 2)
-                        BusinessThing.EndingClear = 49;
-                    else if (BusinessThing.EndingClearPlus == 3)
-                        BusinessThing.EndingClear = 241;
-                    break;
-                case 2:
-                    BusinessThing.EndingClear = 3;
-                    if (BusinessThing.EndingClearPlus == 1)
-                        BusinessThing.EndingClear = 19;
-                    else if (BusinessThing.EndingClearPlus == 2)
-                        BusinessThing.EndingClear = 51;
-                    else if (BusinessThing.EndingClearPlus == 3)
-                        BusinessThing.EndingClear = 243;
-                    break;
-                case 3:
-                    BusinessThing.EndingClear = 7;
-                    if (BusinessThing.EndingClearPlus == 1)
-                        BusinessThing.EndingClear = 23;
-                    else if (BusinessThing.EndingClearPlus == 2)
-                        BusinessThing.EndingClear = 55;
-                    else if (BusinessThing.EndingClearPlus == 3)
-                        BusinessThing.EndingClear = 247;
-                    break;
-                case 4:
-                    BusinessThing.EndingClear = 15;
-                    if (BusinessThing.EndingClearPlus == 1)
-                        BusinessThing.EndingClear = 31;
-                    else if (BusinessThing.EndingClearPlus == 2)
-                        BusinessThing.EndingClear = 63;
-                    else if (BusinessThing.EndingClearPlus == 3)
-                        BusinessThing.EndingClear = 255;
-                    break;
-            }
-        }
-        */
         public static Byte GetEndingClearPlus(int endingPlus)
         {
             Byte Plus = 0;

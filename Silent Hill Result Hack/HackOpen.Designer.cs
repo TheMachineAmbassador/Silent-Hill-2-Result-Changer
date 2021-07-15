@@ -239,10 +239,11 @@ namespace Silent_Hill_Result_Hack
             this.cmb_ActionLevel.Name = "cmb_ActionLevel";
             this.cmb_ActionLevel.Size = new System.Drawing.Size(154, 21);
             this.cmb_ActionLevel.TabIndex = 24;
+            this.cmb_ActionLevel.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             // 
             // btn_Save
             // 
-            this.btn_Save.Location = new System.Drawing.Point(213, 471);
+            this.btn_Save.Location = new System.Drawing.Point(179, 475);
             this.btn_Save.Name = "btn_Save";
             this.btn_Save.Size = new System.Drawing.Size(104, 23);
             this.btn_Save.TabIndex = 25;
@@ -252,7 +253,7 @@ namespace Silent_Hill_Result_Hack
             // 
             // btn_Exit
             // 
-            this.btn_Exit.Location = new System.Drawing.Point(323, 471);
+            this.btn_Exit.Location = new System.Drawing.Point(289, 475);
             this.btn_Exit.Name = "btn_Exit";
             this.btn_Exit.Size = new System.Drawing.Size(102, 23);
             this.btn_Exit.TabIndex = 26;
@@ -267,6 +268,7 @@ namespace Silent_Hill_Result_Hack
             this.cmb_RiddleLevel.Name = "cmb_RiddleLevel";
             this.cmb_RiddleLevel.Size = new System.Drawing.Size(154, 21);
             this.cmb_RiddleLevel.TabIndex = 27;
+            this.cmb_RiddleLevel.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             // 
             // cmb_EndingType
             // 
@@ -275,6 +277,7 @@ namespace Silent_Hill_Result_Hack
             this.cmb_EndingType.Name = "cmb_EndingType";
             this.cmb_EndingType.Size = new System.Drawing.Size(154, 21);
             this.cmb_EndingType.TabIndex = 28;
+            this.cmb_EndingType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             // 
             // lbl_ActionLevel
             // 
@@ -393,6 +396,7 @@ namespace Silent_Hill_Result_Hack
             this.cmb_EndOfClear.Name = "cmb_EndOfClear";
             this.cmb_EndOfClear.Size = new System.Drawing.Size(154, 21);
             this.cmb_EndOfClear.TabIndex = 43;
+            this.cmb_EndOfClear.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             // 
             // lbl_Time
             // 
@@ -411,6 +415,7 @@ namespace Silent_Hill_Result_Hack
             this.cmb_ItemsPlus.Name = "cmb_ItemsPlus";
             this.cmb_ItemsPlus.Size = new System.Drawing.Size(154, 21);
             this.cmb_ItemsPlus.TabIndex = 45;
+            this.cmb_ItemsPlus.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             // 
             // lbl_DefeatedByFighting
             // 

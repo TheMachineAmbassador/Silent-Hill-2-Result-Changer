@@ -28,7 +28,7 @@ namespace Silent_Hill_Result_Hack
             cmb_ActionLevel.DataSource = new BindingSource(BusinessThing.d_actionLevel, null);
             cmb_ActionLevel.DisplayMember = "Value";
             cmb_ActionLevel.SelectedIndex = BusinessThing.ActionLevel;
-
+            
             cmb_RiddleLevel.DataSource = new BindingSource(BusinessThing.d_riddleLevel,null);
             cmb_RiddleLevel.DisplayMember = "Value";
             cmb_RiddleLevel.SelectedIndex = BusinessThing.RiddleLevel;
