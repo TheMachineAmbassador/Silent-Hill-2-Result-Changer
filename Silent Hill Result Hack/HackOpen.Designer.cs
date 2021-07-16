@@ -82,6 +82,7 @@ namespace Silent_Hill_Result_Hack
             // 
             // btn_ChangeActionLevel
             // 
+            this.btn_ChangeActionLevel.ForeColor = System.Drawing.Color.Blue;
             this.btn_ChangeActionLevel.Location = new System.Drawing.Point(373, 50);
             this.btn_ChangeActionLevel.Name = "btn_ChangeActionLevel";
             this.btn_ChangeActionLevel.Size = new System.Drawing.Size(98, 23);
@@ -92,6 +93,7 @@ namespace Silent_Hill_Result_Hack
             // 
             // btn_ChangeRiddleLevel
             // 
+            this.btn_ChangeRiddleLevel.ForeColor = System.Drawing.Color.Blue;
             this.btn_ChangeRiddleLevel.Location = new System.Drawing.Point(373, 76);
             this.btn_ChangeRiddleLevel.Name = "btn_ChangeRiddleLevel";
             this.btn_ChangeRiddleLevel.Size = new System.Drawing.Size(98, 23);
@@ -102,6 +104,7 @@ namespace Silent_Hill_Result_Hack
             // 
             // btn_EndingType
             // 
+            this.btn_EndingType.ForeColor = System.Drawing.Color.Blue;
             this.btn_EndingType.Location = new System.Drawing.Point(373, 102);
             this.btn_EndingType.Name = "btn_EndingType";
             this.btn_EndingType.Size = new System.Drawing.Size(98, 23);
@@ -119,6 +122,7 @@ namespace Silent_Hill_Result_Hack
             // 
             // btn_Saves
             // 
+            this.btn_Saves.ForeColor = System.Drawing.Color.Blue;
             this.btn_Saves.Location = new System.Drawing.Point(373, 155);
             this.btn_Saves.Name = "btn_Saves";
             this.btn_Saves.Size = new System.Drawing.Size(98, 23);
@@ -129,6 +133,7 @@ namespace Silent_Hill_Result_Hack
             // 
             // btn_EndingClear
             // 
+            this.btn_EndingClear.ForeColor = System.Drawing.Color.Blue;
             this.btn_EndingClear.Location = new System.Drawing.Point(373, 128);
             this.btn_EndingClear.Name = "btn_EndingClear";
             this.btn_EndingClear.Size = new System.Drawing.Size(98, 23);
@@ -146,6 +151,7 @@ namespace Silent_Hill_Result_Hack
             // 
             // btnDefeatedByShooting
             // 
+            this.btnDefeatedByShooting.ForeColor = System.Drawing.Color.Blue;
             this.btnDefeatedByShooting.Location = new System.Drawing.Point(373, 312);
             this.btnDefeatedByShooting.Name = "btnDefeatedByShooting";
             this.btnDefeatedByShooting.Size = new System.Drawing.Size(98, 23);
@@ -156,6 +162,7 @@ namespace Silent_Hill_Result_Hack
             // 
             // btn_ItemsPlus
             // 
+            this.btn_ItemsPlus.ForeColor = System.Drawing.Color.Blue;
             this.btn_ItemsPlus.Location = new System.Drawing.Point(373, 286);
             this.btn_ItemsPlus.Name = "btn_ItemsPlus";
             this.btn_ItemsPlus.Size = new System.Drawing.Size(98, 23);
@@ -173,6 +180,7 @@ namespace Silent_Hill_Result_Hack
             // 
             // btn_Items
             // 
+            this.btn_Items.ForeColor = System.Drawing.Color.Blue;
             this.btn_Items.Location = new System.Drawing.Point(373, 260);
             this.btn_Items.Name = "btn_Items";
             this.btn_Items.Size = new System.Drawing.Size(98, 23);
@@ -190,6 +198,7 @@ namespace Silent_Hill_Result_Hack
             // 
             // btn_RunningDistance
             // 
+            this.btn_RunningDistance.ForeColor = System.Drawing.Color.Blue;
             this.btn_RunningDistance.Location = new System.Drawing.Point(373, 234);
             this.btn_RunningDistance.Name = "btn_RunningDistance";
             this.btn_RunningDistance.Size = new System.Drawing.Size(98, 23);
@@ -207,6 +216,7 @@ namespace Silent_Hill_Result_Hack
             // 
             // btn_WalkingDistance
             // 
+            this.btn_WalkingDistance.ForeColor = System.Drawing.Color.Blue;
             this.btn_WalkingDistance.Location = new System.Drawing.Point(373, 208);
             this.btn_WalkingDistance.Name = "btn_WalkingDistance";
             this.btn_WalkingDistance.Size = new System.Drawing.Size(98, 23);
@@ -224,6 +234,7 @@ namespace Silent_Hill_Result_Hack
             // 
             // btn_TotalTime
             // 
+            this.btn_TotalTime.ForeColor = System.Drawing.Color.Blue;
             this.btn_TotalTime.Location = new System.Drawing.Point(483, 182);
             this.btn_TotalTime.Name = "btn_TotalTime";
             this.btn_TotalTime.Size = new System.Drawing.Size(98, 23);
@@ -234,15 +245,16 @@ namespace Silent_Hill_Result_Hack
             // 
             // cmb_ActionLevel
             // 
+            this.cmb_ActionLevel.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmb_ActionLevel.FormattingEnabled = true;
             this.cmb_ActionLevel.Location = new System.Drawing.Point(213, 50);
             this.cmb_ActionLevel.Name = "cmb_ActionLevel";
             this.cmb_ActionLevel.Size = new System.Drawing.Size(154, 21);
             this.cmb_ActionLevel.TabIndex = 24;
-            this.cmb_ActionLevel.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             // 
             // btn_Save
             // 
+            this.btn_Save.ForeColor = System.Drawing.Color.Blue;
             this.btn_Save.Location = new System.Drawing.Point(179, 475);
             this.btn_Save.Name = "btn_Save";
             this.btn_Save.Size = new System.Drawing.Size(104, 23);
@@ -253,6 +265,7 @@ namespace Silent_Hill_Result_Hack
             // 
             // btn_Exit
             // 
+            this.btn_Exit.ForeColor = System.Drawing.Color.Blue;
             this.btn_Exit.Location = new System.Drawing.Point(289, 475);
             this.btn_Exit.Name = "btn_Exit";
             this.btn_Exit.Size = new System.Drawing.Size(102, 23);
@@ -263,26 +276,27 @@ namespace Silent_Hill_Result_Hack
             // 
             // cmb_RiddleLevel
             // 
+            this.cmb_RiddleLevel.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmb_RiddleLevel.FormattingEnabled = true;
             this.cmb_RiddleLevel.Location = new System.Drawing.Point(213, 77);
             this.cmb_RiddleLevel.Name = "cmb_RiddleLevel";
             this.cmb_RiddleLevel.Size = new System.Drawing.Size(154, 21);
             this.cmb_RiddleLevel.TabIndex = 27;
-            this.cmb_RiddleLevel.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             // 
             // cmb_EndingType
             // 
+            this.cmb_EndingType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmb_EndingType.FormattingEnabled = true;
             this.cmb_EndingType.Location = new System.Drawing.Point(213, 104);
             this.cmb_EndingType.Name = "cmb_EndingType";
             this.cmb_EndingType.Size = new System.Drawing.Size(154, 21);
             this.cmb_EndingType.TabIndex = 28;
-            this.cmb_EndingType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             // 
             // lbl_ActionLevel
             // 
             this.lbl_ActionLevel.AutoSize = true;
             this.lbl_ActionLevel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lbl_ActionLevel.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.lbl_ActionLevel.Location = new System.Drawing.Point(44, 56);
             this.lbl_ActionLevel.Name = "lbl_ActionLevel";
             this.lbl_ActionLevel.Size = new System.Drawing.Size(75, 15);
@@ -391,12 +405,12 @@ namespace Silent_Hill_Result_Hack
             // 
             // cmb_EndOfClear
             // 
+            this.cmb_EndOfClear.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmb_EndOfClear.FormattingEnabled = true;
             this.cmb_EndOfClear.Location = new System.Drawing.Point(213, 130);
             this.cmb_EndOfClear.Name = "cmb_EndOfClear";
             this.cmb_EndOfClear.Size = new System.Drawing.Size(154, 21);
             this.cmb_EndOfClear.TabIndex = 43;
-            this.cmb_EndOfClear.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             // 
             // lbl_Time
             // 
@@ -410,12 +424,12 @@ namespace Silent_Hill_Result_Hack
             // 
             // cmb_ItemsPlus
             // 
+            this.cmb_ItemsPlus.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmb_ItemsPlus.FormattingEnabled = true;
             this.cmb_ItemsPlus.Location = new System.Drawing.Point(213, 287);
             this.cmb_ItemsPlus.Name = "cmb_ItemsPlus";
             this.cmb_ItemsPlus.Size = new System.Drawing.Size(154, 21);
             this.cmb_ItemsPlus.TabIndex = 45;
-            this.cmb_ItemsPlus.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             // 
             // lbl_DefeatedByFighting
             // 
@@ -436,6 +450,7 @@ namespace Silent_Hill_Result_Hack
             // 
             // btn_DefeatedByFighting
             // 
+            this.btn_DefeatedByFighting.ForeColor = System.Drawing.Color.Blue;
             this.btn_DefeatedByFighting.Location = new System.Drawing.Point(373, 340);
             this.btn_DefeatedByFighting.Name = "btn_DefeatedByFighting";
             this.btn_DefeatedByFighting.Size = new System.Drawing.Size(98, 23);
@@ -473,6 +488,7 @@ namespace Silent_Hill_Result_Hack
             // 
             // btn_BoatStageTime
             // 
+            this.btn_BoatStageTime.ForeColor = System.Drawing.Color.Blue;
             this.btn_BoatStageTime.Location = new System.Drawing.Point(483, 368);
             this.btn_BoatStageTime.Name = "btn_BoatStageTime";
             this.btn_BoatStageTime.Size = new System.Drawing.Size(98, 23);
@@ -500,6 +516,7 @@ namespace Silent_Hill_Result_Hack
             // 
             // btn_BoatMaxSpeed
             // 
+            this.btn_BoatMaxSpeed.ForeColor = System.Drawing.Color.Blue;
             this.btn_BoatMaxSpeed.Location = new System.Drawing.Point(373, 395);
             this.btn_BoatMaxSpeed.Name = "btn_BoatMaxSpeed";
             this.btn_BoatMaxSpeed.Size = new System.Drawing.Size(98, 23);
@@ -527,6 +544,7 @@ namespace Silent_Hill_Result_Hack
             // 
             // btn_TotalDamage
             // 
+            this.btn_TotalDamage.ForeColor = System.Drawing.Color.Blue;
             this.btn_TotalDamage.Location = new System.Drawing.Point(373, 427);
             this.btn_TotalDamage.Name = "btn_TotalDamage";
             this.btn_TotalDamage.Size = new System.Drawing.Size(98, 23);
@@ -539,7 +557,7 @@ namespace Silent_Hill_Result_Hack
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(602, 519);
             this.ControlBox = false;
             this.Controls.Add(this.lbl_TotalDamage);
@@ -591,6 +609,7 @@ namespace Silent_Hill_Result_Hack
             this.Controls.Add(this.btn_EndingType);
             this.Controls.Add(this.btn_ChangeRiddleLevel);
             this.Controls.Add(this.btn_ChangeActionLevel);
+            this.ForeColor = System.Drawing.Color.Lavender;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.MaximizeBox = false;
             this.MinimizeBox = false;

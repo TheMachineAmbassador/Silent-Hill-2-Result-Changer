@@ -57,10 +57,10 @@ namespace Silent_Hill_Result_Hack
             // lbl_Status
             // 
             this.lbl_Status.AutoSize = true;
-            this.lbl_Status.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lbl_Status.Location = new System.Drawing.Point(46, 48);
+            this.lbl_Status.Font = new System.Drawing.Font("Cooper Black", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Status.Location = new System.Drawing.Point(9, 49);
             this.lbl_Status.Name = "lbl_Status";
-            this.lbl_Status.Size = new System.Drawing.Size(45, 16);
+            this.lbl_Status.Size = new System.Drawing.Size(43, 13);
             this.lbl_Status.TabIndex = 2;
             this.lbl_Status.Text = "label1";
             this.lbl_Status.Visible = false;

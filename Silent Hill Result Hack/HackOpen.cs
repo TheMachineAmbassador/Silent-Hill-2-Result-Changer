@@ -78,13 +78,13 @@ namespace Silent_Hill_Result_Hack
 
         private void btn_Save_Click(object sender, EventArgs e)
         {
-            BusinessThing.SaveChanges = 3;
+            BusinessThing.SaveChanges = 4;
             Application.Exit();
         }
 
         private void btn_Exit_Click(object sender, EventArgs e)
         {
-            BusinessThing.ReadMenuSwitch = 1;
+            //BusinessThing.ReadMenuSwitch = 1;
             Application.Exit();
         }
 

@@ -22,14 +22,14 @@ namespace Silent_Hill_Result_Hack
         private void btn_StartHack_Click(object sender, EventArgs e)
         {
 
-            if (BusinessThing.ReadMenuSwitch!=4 && BusinessThing.ReadMenuSwitch!=11 )
+            if (BusinessThing.ReadMenuSwitch!=11 )
             {
                 lbl_Status.Visible = true;
-                lbl_Status.Text = "Please start game and try again";
+                lbl_Status.Text = "Please load you're endgame save and try again";
             }
             else
             {
-                BusinessThing.ReadMenuSwitch = 10;
+                //BusinessThing.ReadMenuSwitch = 10;
 
                 HackOpen hackOpen = new HackOpen();
                 hackOpen.Show();
