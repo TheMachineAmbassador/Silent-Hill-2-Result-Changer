@@ -58,6 +58,7 @@ namespace Silent_Hill_Result_Hack
             // 
             this.lbl_Status.AutoSize = true;
             this.lbl_Status.Font = new System.Drawing.Font("Cooper Black", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Status.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lbl_Status.Location = new System.Drawing.Point(9, 49);
             this.lbl_Status.Name = "lbl_Status";
             this.lbl_Status.Size = new System.Drawing.Size(43, 13);
@@ -69,7 +70,7 @@ namespace Silent_Hill_Result_Hack
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(284, 201);
             this.Controls.Add(this.lbl_Status);
             this.Controls.Add(this.btn_Exit);

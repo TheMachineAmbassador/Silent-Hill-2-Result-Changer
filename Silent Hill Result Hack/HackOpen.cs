@@ -63,7 +63,7 @@ namespace Silent_Hill_Result_Hack
 
         private void HackOpen_FormClosed(object sender, FormClosedEventArgs e)
         {
-           
+            Application.Exit();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -78,13 +78,7 @@ namespace Silent_Hill_Result_Hack
 
         private void btn_Save_Click(object sender, EventArgs e)
         {
-            BusinessThing.SaveChanges = 4;
-            Application.Exit();
-        }
-
-        private void btn_Exit_Click(object sender, EventArgs e)
-        {
-            //BusinessThing.ReadMenuSwitch = 1;
+            BusinessThing.SaveChanges = 3;
             Application.Exit();
         }
 
@@ -162,6 +156,11 @@ namespace Silent_Hill_Result_Hack
         private void btn_TotalDamage_Click(object sender, EventArgs e)
         {
             BusinessThing.TotalDamage = (float)Convert.ToDouble(tbx_TotalDamage.Text);
+        }
+
+        private void HackOpen_FormClosing(object sender, FormClosingEventArgs e)
+        {
+
         }
     }
 }

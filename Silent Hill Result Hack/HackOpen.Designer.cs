@@ -48,7 +48,6 @@ namespace Silent_Hill_Result_Hack
             this.btn_TotalTime = new System.Windows.Forms.Button();
             this.cmb_ActionLevel = new System.Windows.Forms.ComboBox();
             this.btn_Save = new System.Windows.Forms.Button();
-            this.btn_Exit = new System.Windows.Forms.Button();
             this.cmb_RiddleLevel = new System.Windows.Forms.ComboBox();
             this.cmb_EndingType = new System.Windows.Forms.ComboBox();
             this.lbl_ActionLevel = new System.Windows.Forms.Label();
@@ -255,24 +254,13 @@ namespace Silent_Hill_Result_Hack
             // btn_Save
             // 
             this.btn_Save.ForeColor = System.Drawing.Color.Blue;
-            this.btn_Save.Location = new System.Drawing.Point(179, 475);
+            this.btn_Save.Location = new System.Drawing.Point(202, 474);
             this.btn_Save.Name = "btn_Save";
-            this.btn_Save.Size = new System.Drawing.Size(104, 23);
+            this.btn_Save.Size = new System.Drawing.Size(194, 23);
             this.btn_Save.TabIndex = 25;
             this.btn_Save.Text = "Save Changes";
             this.btn_Save.UseVisualStyleBackColor = true;
             this.btn_Save.Click += new System.EventHandler(this.btn_Save_Click);
-            // 
-            // btn_Exit
-            // 
-            this.btn_Exit.ForeColor = System.Drawing.Color.Blue;
-            this.btn_Exit.Location = new System.Drawing.Point(289, 475);
-            this.btn_Exit.Name = "btn_Exit";
-            this.btn_Exit.Size = new System.Drawing.Size(102, 23);
-            this.btn_Exit.TabIndex = 26;
-            this.btn_Exit.Text = "Exit Without Save";
-            this.btn_Exit.UseVisualStyleBackColor = true;
-            this.btn_Exit.Click += new System.EventHandler(this.btn_Exit_Click);
             // 
             // cmb_RiddleLevel
             // 
@@ -559,7 +547,6 @@ namespace Silent_Hill_Result_Hack
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(602, 519);
-            this.ControlBox = false;
             this.Controls.Add(this.lbl_TotalDamage);
             this.Controls.Add(this.tbx_TotalDamage);
             this.Controls.Add(this.btn_TotalDamage);
@@ -589,7 +576,6 @@ namespace Silent_Hill_Result_Hack
             this.Controls.Add(this.lbl_ActionLevel);
             this.Controls.Add(this.cmb_EndingType);
             this.Controls.Add(this.cmb_RiddleLevel);
-            this.Controls.Add(this.btn_Exit);
             this.Controls.Add(this.btn_Save);
             this.Controls.Add(this.cmb_ActionLevel);
             this.Controls.Add(this.tbxDefeatedByShooting);
@@ -610,12 +596,13 @@ namespace Silent_Hill_Result_Hack
             this.Controls.Add(this.btn_ChangeRiddleLevel);
             this.Controls.Add(this.btn_ChangeActionLevel);
             this.ForeColor = System.Drawing.Color.Lavender;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "HackOpen";
             this.ShowIcon = false;
             this.Text = "Edit Game Result";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.HackOpen_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.HackOpen_FormClosed);
             this.Load += new System.EventHandler(this.HackOpen_Load);
             this.ResumeLayout(false);
@@ -644,7 +631,6 @@ namespace Silent_Hill_Result_Hack
         private System.Windows.Forms.Button btn_TotalTime;
         private System.Windows.Forms.ComboBox cmb_ActionLevel;
         private System.Windows.Forms.Button btn_Save;
-        private System.Windows.Forms.Button btn_Exit;
         private System.Windows.Forms.ComboBox cmb_RiddleLevel;
         private System.Windows.Forms.ComboBox cmb_EndingType;
         private System.Windows.Forms.Label lbl_ActionLevel;
