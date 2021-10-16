@@ -23,5 +23,6 @@ namespace Silent_Hill_Result_Hack.Offsets
         public const Int32 boatStageTime = 0x19BBFA0;
         public const Int32 boatMaxSpeed = 0x19BBFA4;
         public const Int32 totalDamage = 0x19BBFA8;
+        public const Int32 isMariaSave = 0x19BC00C;
     }
 } 

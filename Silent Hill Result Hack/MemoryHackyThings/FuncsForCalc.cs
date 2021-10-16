@@ -195,6 +195,11 @@ namespace Silent_Hill_Result_Hack.MemoryHackyThings
             return returnTime;
         }
 
+        public static bool isMainStory()
+        {
+            return !BusinessThing.StoryMode;
+        }
+
         public static float CalcDistance(float distance)
         {
             return (distance * 0.002f * 0.001f);

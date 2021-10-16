@@ -25,15 +25,17 @@ namespace Silent_Hill_Result_Hack
 
         private void HackOpen_Load(object sender, EventArgs e)
         {
+            HackOpen_BackgroundImage();
+
             cmb_ActionLevel.DataSource = new BindingSource(BusinessThing.d_actionLevel, null);
             cmb_ActionLevel.DisplayMember = "Value";
             cmb_ActionLevel.SelectedIndex = BusinessThing.ActionLevel;
-            
-            cmb_RiddleLevel.DataSource = new BindingSource(BusinessThing.d_riddleLevel,null);
+
+            cmb_RiddleLevel.DataSource = new BindingSource(BusinessThing.d_riddleLevel, null);
             cmb_RiddleLevel.DisplayMember = "Value";
             cmb_RiddleLevel.SelectedIndex = BusinessThing.RiddleLevel;
 
-            cmb_EndingType.DataSource = new BindingSource(BusinessThing.d_endingType,null);
+            cmb_EndingType.DataSource = new BindingSource(BusinessThing.d_endingType, null);
             cmb_EndingType.DisplayMember = "Value";
             cmb_EndingType.SelectedIndex = EndingIndex;
 
@@ -59,6 +61,19 @@ namespace Silent_Hill_Result_Hack
 
             lbl_Time.Text = string.Format("{0}:{1}:{2}", clocks[0], clocks[1], clocks[1]);
             lbl_BoatTimeShow.Text = string.Format("{0}:{1}:{2}", clockForBoatStageTime[0], clockForBoatStageTime[1], clockForBoatStageTime[2]);
+        }
+
+        private void HackOpen_BackgroundImage()
+        {
+            Image jamesImage = new Bitmap(@"resources\backImages\james.jpg");
+            Image mariaImage = new Bitmap(@"resources\backImages\maria.jpg");
+
+            if (FuncsForCalc.isMainStory())
+                this.BackgroundImage = jamesImage;
+            else
+                this.BackgroundImage = mariaImage;
+
+            this.BackgroundImageLayout = ImageLayout.Stretch;
         }
 
         private void HackOpen_FormClosed(object sender, FormClosedEventArgs e)

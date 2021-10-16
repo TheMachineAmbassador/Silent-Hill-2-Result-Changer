@@ -233,5 +233,13 @@ namespace Silent_Hill_Result_Hack.MemoryHackyThings
                 Memory.MemoryHacker.Write<float>(Memory.MemoryHacker.clientBase + signatures.totalDamage, value);
             }
         }
+
+        public static bool StoryMode
+        {
+            get
+            {
+                return Memory.MemoryHacker.Read<bool>(Memory.MemoryHacker.clientBase + signatures.isMariaSave);
+            }
+        }
     }
 }
