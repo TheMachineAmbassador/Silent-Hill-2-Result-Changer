@@ -71,8 +71,19 @@ namespace Silent_Hill_Result_Hack
             if (FuncsForCalc.isMainStory())
                 this.BackgroundImage = jamesImage;
             else
+            {
                 this.BackgroundImage = mariaImage;
-
+                cmb_RiddleLevel.Enabled = false;
+                btn_ChangeRiddleLevel.Enabled = false;
+                cmb_EndingType.Enabled = false;
+                btn_EndingType.Enabled = false;
+                cmb_EndOfClear.Enabled = false;
+                btn_EndingClear.Enabled = false;
+                tbx_BoatStageTime.Enabled = false;
+                btn_BoatStageTime.Enabled = false;
+                tbx_BoatMaxSpeed.Enabled = false;
+                btn_BoatMaxSpeed.Enabled = false;
+            }
             this.BackgroundImageLayout = ImageLayout.Stretch;
         }
 
